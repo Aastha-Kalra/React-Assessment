@@ -1,0 +1,36 @@
+{
+    "persons": [
+
+        {
+          "id": 1,
+          "name": "Pooja",
+          "age": 30,
+          "city": "New Delhi"
+        },
+        {
+          "id": 2,
+          "name": "Priyanka",
+          "age": 25,
+          "city": "Canada"
+        },
+        {
+            "id": 3,
+            "name": "Kavya",
+            "age": 12,
+            "city": "America"
+          },
+          {
+            "id": 4,
+            "name": "Anika",
+            "age": 15,
+            "city": "Banglore"
+          },
+    
+          {
+            "id": 5,
+            "name": "Sweety",
+            "age": 23,
+            "city": "Australia"
+          }
+      ]
+}
