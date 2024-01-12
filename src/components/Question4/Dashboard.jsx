@@ -64,7 +64,7 @@ const Dashboard = ({ username }) => {
     <div className="flex flex-col  justify-center items-center gap-5 relative">
       <h2>Welcome, {username}!</h2>
 <div className="flex  justify-center items-center gap-5 w-full">
-<label className="flex flex-col gap-2 text-2xl">
+{/* <label className="flex flex-col gap-2 text-2xl">
         ID:
         <input
           type="text"
@@ -76,7 +76,7 @@ const Dashboard = ({ username }) => {
           className=' rounded-xl bg-slate-300 focus:outline-none p-3 text-yellow-600 text-xl'
 
         />
-      </label>
+      </label> */}
 
       <label className="flex flex-col gap-2 text-2xl">
         Name:
