@@ -1,10 +1,16 @@
 const updateEmployee = (employees, idToUpdate, updatedData, setEmployees) => {
-    const updatedEmployees = employees.map((employee) =>
-      employee.id === idToUpdate ? { ...employee, ...updatedData } : employee
-    );
-  
+  const indexToUpdate = employees.findIndex(
+    (employee) => employee.id === idToUpdate
+  );
+
+  if (indexToUpdate !== -1) {
+    const updatedEmployees = [...employees];
+    updatedEmployees[indexToUpdate] = { ...updatedData };
+
     setEmployees(updatedEmployees);
-  };
-  
-  export default updateEmployee;
-  
+
+    localStorage.setItem("employees", JSON.stringify(updatedEmployees));
+  }
+};
+
+export default updateEmployee;
