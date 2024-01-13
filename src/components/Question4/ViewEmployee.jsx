@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import EmployeeList from "./Services/EmployeeList";
-import SearchByDesignation from "./services/SearchByDesignation";
-import SearchByName from "./services/SearchByName";
+import SearchByDesignation from "./Services/SearchByDesignation";
+import SearchByName from "./Services/SearchByName";
 import updateEmployee from "./Services/UpdateEmp";
 import UpdateEmployeeForm from "./Services/UpdateEmpForm";
 const ViewEmployees = () => {
