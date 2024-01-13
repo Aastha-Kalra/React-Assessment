@@ -10,7 +10,7 @@ function Header({ user }) {
     if (isAuthenticated) {
       navigate("/add");
     } else {
-      // Redirect to the login page or show a login modal
+      
       navigate("/");
     }
   };
@@ -19,7 +19,7 @@ function Header({ user }) {
     if (isAuthenticated) {
       navigate("/view");
     } else {
-      // Redirect to the login page or show a login modal
+      
       navigate("/");
     }
   };
@@ -47,7 +47,7 @@ function Header({ user }) {
           ) : (
             <>
               <Link
-                to={"/"}  // Change to the login page or authentication page
+                to={"/"}
                 className="text-yellow-400 sm:text-3xl mx-10"
               >
                 Login
