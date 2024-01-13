@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import EmployeeList from "./services/EmployeeList";
+import EmployeeList from "./Services/EmployeeList";
 import SearchByDesignation from "./services/SearchByDesignation";
 import SearchByName from "./services/SearchByName";
 import updateEmployee from "./Services/UpdateEmp";
